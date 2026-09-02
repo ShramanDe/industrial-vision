@@ -50,3 +50,27 @@ Example:
 ```text
 good_cap.jpeg
 defective_cap.jpg
+
+## Results
+
+The system was tested using a good bottle cap as the reference image and a test cap image.
+
+### PASS Case
+
+The system detected the cap rim successfully with no significant edge-loss regions.
+
+**Result:** PASS
+
+### FAIL Case
+
+For a defective cap, the system identifies localized regions where the rim edge is significantly weaker than the reference.
+
+**Result:** FAIL
+
+The detected defect regions are highlighted in red in the generated inspection image.
+
+## Inspection Output
+
+Example output showing the detected rim and inspection result:
+
+![Inspection Result](inspection_result.jpg)
