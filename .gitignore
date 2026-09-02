@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+
+gray.jpg
+gray_cap.jpg
+edges_cap.jpg
+thresholded.jpg
+detected_rim.jpg
+test.jpeg
