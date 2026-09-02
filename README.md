@@ -50,6 +50,7 @@ Example:
 ```text
 good_cap.jpeg
 defective_cap.jpg
+```
 
 ## Results
 
